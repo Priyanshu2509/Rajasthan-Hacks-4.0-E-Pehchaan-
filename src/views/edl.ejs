@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Driving license</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="w3-light-grey" onload="ready()">
+        <div id="mount" style="display:none">
+                <%= result %>
+            </div>
+<div class="w3-top">
+    <div class="w3-bar w3-grey w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-8 w3-hover-white w3-large w3-red" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <img style="display:inline" src="elogocut.png" width="127" height="47" alt="bbc news special" />
+    </div>
+</div>
+<div class="w3-display-middle" style="width:500px;border:2px solid black;margin:10px">
+
+  <div class="w3-center">
+    <header>
+  <div class="w3-row">
+    <div class="w3-third w3-padding-16">
+     <img src="emblem.jpg" height="35" width="35" alt="emblem">
+   </div>
+   <div class="w3-twothird">
+     <h1>driving license</h1> 
+</div>
+   </div>
+ </header>
+ <div class="w3-row">
+   <div class="w3-third">
+   <p>date of issue:<br>67/90</p><p>blood group:<br>b+</p>
+ </div>
+ <div class="w3-third">
+   <h5>expiry date:<br>56/89</h5><p>validity:<br>78/90</p>
+ </div>
+  <div class="w3-third">
+  <img src="login.png" height="80" weight="80" alt="image">
+ </div>
+
+</div>
+  <div class="w3-display-bottommiddle" style="position: relative; top:50%">
+    <img id="here">
+
+  </div>
+</div>
+</div>
+<script>
+        function ready(){
+          var image = new Image();
+      //Just getting the source from the span. It was messy in JS.
+      document.getElementById("here").src=document.getElementById('mount').innerHTML;
+        }
+      </script> 
+</body>
+</html>
