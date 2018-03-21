@@ -12,3 +12,12 @@ This will benefit both: the users and the Government. At user end: they no longe
 # Instructions
 Run `npm install` to install the dependencies.
 Run `node index.js`
+
+# Screenshots
+![1](https://user-images.githubusercontent.com/25208971/37692157-e6a6b4ca-2cdc-11e8-8d5a-4af4950e5e71.PNG)
+![2](https://user-images.githubusercontent.com/25208971/37692158-e81cef36-2cdc-11e8-99b6-5c59511f6bb3.PNG)
+![3](https://user-images.githubusercontent.com/25208971/37692431-7e0bf752-2cde-11e8-8d55-11180e52c2b2.PNG)
+![4](https://user-images.githubusercontent.com/25208971/37692434-80b44162-2cde-11e8-82b2-b6bb2dbfc66b.PNG)
+![5](https://user-images.githubusercontent.com/25208971/37692438-8291ac54-2cde-11e8-8ce9-d21c275116a3.PNG)
+![7](https://user-images.githubusercontent.com/25208971/37692439-83f47018-2cde-11e8-99ad-864b475b49db.PNG)
+
